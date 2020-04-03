@@ -1,0 +1,49 @@
+﻿<Window ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen"  x:Class="AntiVirusApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AntiVirusApp"
+        mc:Ignorable="d"
+        Title="杀软名称" Height="550" Width="900" Icon="Resources/Images/UIs/medicine-chest.png" AllowsTransparency="True" WindowStyle="None">
+
+    <Window.Background>
+        <ImageBrush ImageSource="/AntiVirusApp;component/Resources/Images/Background/back.jpg"/>
+    </Window.Background>
+
+    <DockPanel Width="auto" Height="auto">
+        <GroupBox>
+            <Grid Background="Transparent" Width="120">
+                <Button Tag="QuickScan" Name="btn1" Style="{DynamicResource NaviStyle}" Margin="0,80,0,352" Height="60" Width="120" Click="NaviButton_Click">快速扫描</Button>
+                <Button Tag="FullScan" Name="btn2" Style="{DynamicResource NaviStyle}" Margin="0,160,0,276" Height="60" Width="120" Click="NaviButton_Click">全盘扫描</Button>
+                <Button Tag="CustomScan" Name="btn3" Style="{DynamicResource NaviStyle}" Margin="0,240,0,203" Height="60" Width="120" Click="NaviButton_Click">自定义扫描</Button>
+                <Button Tag="USBScan" Name="btn4" Style="{DynamicResource NaviStyle}" Margin="0,320,0,123" Height="60" Width="120" Click="NaviButton_Click">U盘扫描</Button>
+                <Button Tag="Others" Name="btn5" Style="{DynamicResource NaviStyle}" Margin="0,400,0,43" Height="60" Width="120" Click="NaviButton_Click">更多功能</Button>
+            </Grid>
+        </GroupBox>
+        
+        <Grid Background="Transparent">
+            <Button Height="30" Width="30" Background="Transparent" BorderThickness="0" Margin="727,5,0,514" Click="Quit_Click" IsCancel="True">
+                <!--调整按钮的样式(按钮大小，位置，内边距，背景颜色，边框粗细等等)-->
+                <StackPanel Orientation="Vertical">
+                    <!--给按钮设置背景图片，Source为图片路径，Resources/Images为在项目内的根文件夹，后面是图片名称-->
+                    <Image Stretch="Fill" Source="/Resources/Images/UIs/quit.png" Width="30" Height="30" Cursor="Hand" />
+                    <!--给按钮设置文字-->
+                    <TextBlock HorizontalAlignment="Center" />
+                </StackPanel>
+            </Button>
+
+            <Frame Name="mainFrame" NavigationUIVisibility="Hidden" Navigated="MainFrame_Navigated"></Frame>
+            
+            <Button Height="30" Width="30" Background="Transparent" BorderThickness="0" Margin="657,5,0,514" Click="Min_Click" IsCancel="True">
+                <!--调整按钮的样式(按钮大小，位置，内边距，背景颜色，边框粗细等等)-->
+                <StackPanel Orientation="Vertical">
+                    <!--给按钮设置背景图片，Source为图片路径，Resources/Images为在项目内的根文件夹，后面是图片名称-->
+                    <Image Stretch="Fill" Source="/Resources/Images/UIs/min.png" Width="30" Height="30" Cursor="Hand" />
+                    <!--给按钮设置文字-->
+                    <TextBlock HorizontalAlignment="Center" />
+                </StackPanel>
+            </Button>
+        </Grid>
+    </DockPanel>
+</Window>
