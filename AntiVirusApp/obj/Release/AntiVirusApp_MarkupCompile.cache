@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-F:\WPFantivirus\Antivirus_APP_GUI\AntiVirusApp\AntiVirusApp\obj\Release\
+D:\大学\安天——恶意代码分析\APP\1TreeForest\AntiVirusApp\AntiVirusApp\obj\Release\
 AntiVirusApp
 none
 false
 TRACE
-F:\WPFantivirus\Antivirus_APP_GUI\AntiVirusApp\AntiVirusApp\App.xaml
-111946989168
+D:\大学\安天——恶意代码分析\APP\1TreeForest\AntiVirusApp\AntiVirusApp\App.xaml
+11175018334
 
-14864788137
-1669039748
-MainWindow.xaml;Pages\Home.xaml;Pages\Others.xaml;Pages\USBScan.xaml;Pages\CustomScan.xaml;Pages\FullScan.xaml;Pages\QuickScan.xaml;Pages\Progressing.xaml;Pages\StoppedPage.xaml;StylesDictionary.xaml;QueryWindow.xaml;
+18533206970
+131569487696
+FolderSelector.xaml;MainWindow.xaml;Pages\Home.xaml;Pages\Others.xaml;Pages\USBScan.xaml;Pages\CustomScan.xaml;Pages\FullScan.xaml;Pages\QuickScan.xaml;Pages\Progressing.xaml;Pages\StoppedPage.xaml;StylesDictionary.xaml;
 
-False
+True
 

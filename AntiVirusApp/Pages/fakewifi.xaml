@@ -1,0 +1,23 @@
+﻿<Page x:Class="AntiVirusApp.Pages.fakewifi"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:AntiVirusApp.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="fakewifi">
+
+    <Grid>
+        <Frame Name="frame" NavigationUIVisibility="Hidden" Navigated="Frame_Navigated"></Frame>
+        <TextBlock  FontSize="22"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center"
+                   Width="780"
+                   Height="430"
+                   ToolTip="https://cn.bing.com"
+                   TextWrapping="Wrap" Margin="10">
+            <Run Text="       "/><Run Text="黑客利用人们节省流量费的心理来构建假冒热点窃取用户敏感信息。一旦连接到假WIFI，IC、IP、IQ卡，就可能统统被人盗密码。"/>
+        </TextBlock>
+    </Grid>
+</Page>

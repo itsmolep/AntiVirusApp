@@ -13,17 +13,17 @@
 
     <DockPanel Width="auto" Height="auto">
         <GroupBox>
-            <Grid Background="Transparent" Width="120">
-                <Button Tag="QuickScan" Name="btn1" Style="{DynamicResource NaviStyle}" Margin="0,80,0,352" Height="60" Width="120" Click="NaviButton_Click">快速扫描</Button>
-                <Button Tag="FullScan" Name="btn2" Style="{DynamicResource NaviStyle}" Margin="0,160,0,276" Height="60" Width="120" Click="NaviButton_Click">全盘扫描</Button>
-                <Button Tag="CustomScan" Name="btn3" Style="{DynamicResource NaviStyle}" Margin="0,240,0,203" Height="60" Width="120" Click="NaviButton_Click">自定义扫描</Button>
-                <Button Tag="USBScan" Name="btn4" Style="{DynamicResource NaviStyle}" Margin="0,320,0,123" Height="60" Width="120" Click="NaviButton_Click">U盘扫描</Button>
-                <Button Tag="Others" Name="btn5" Style="{DynamicResource NaviStyle}" Margin="0,400,0,43" Height="60" Width="120" Click="NaviButton_Click">更多功能</Button>
+            <Grid Background="Transparent" Width="148">
+                <Button Tag="QuickScan" Name="btn1" Style="{DynamicResource NaviStyle}" Margin="10,106,10,377" Height="60" Click="NaviButton_Click">快速扫描</Button>
+                <Button Tag="FullScan" Name="btn2" Style="{DynamicResource NaviStyle}" Margin="10,184,10,299" Height="60" Click="NaviButton_Click">全盘扫描</Button>
+                <Button Tag="CustomScan" Name="btn3" Style="{DynamicResource NaviStyle}" Margin="10,260,10,223" Height="60" Click="NaviButton_Click">自定义扫描</Button>
+                <Button Tag="USBScan" Name="btn4" Style="{DynamicResource NaviStyle}" Margin="10,340,10,143" Height="60" Click="NaviButton_Click">U盘扫描</Button>
+                <Button Tag="SecurityShare" Name="btn5" Style="{DynamicResource NaviStyle}" Margin="10,420,10,63" Height="60" Click="NaviButton_Click">安全知识普及</Button>
             </Grid>
         </GroupBox>
-        
+
         <Grid Background="Transparent">
-            <Button Height="30" Width="30" Background="Transparent" BorderThickness="0" Margin="727,5,0,514" Click="Quit_Click" IsCancel="True">
+            <Button Height="30" Width="30" Background="Transparent" BorderThickness="0" Margin="702,6,4,514" Click="Quit_Click" IsCancel="True">
                 <!--调整按钮的样式(按钮大小，位置，内边距，背景颜色，边框粗细等等)-->
                 <StackPanel Orientation="Vertical">
                     <!--给按钮设置背景图片，Source为图片路径，Resources/Images为在项目内的根文件夹，后面是图片名称-->
@@ -34,8 +34,8 @@
             </Button>
 
             <Frame Name="mainFrame" NavigationUIVisibility="Hidden" Navigated="MainFrame_Navigated"></Frame>
-            
-            <Button Height="30" Width="30" Background="Transparent" BorderThickness="0" Margin="657,5,0,514" Click="Min_Click" IsCancel="True">
+
+            <Button Height="30" Width="30" Background="Transparent" BorderThickness="0" Margin="658,6,48,514" Click="Min_Click" IsCancel="True" RenderTransformOrigin="-0.17,0.457">
                 <!--调整按钮的样式(按钮大小，位置，内边距，背景颜色，边框粗细等等)-->
                 <StackPanel Orientation="Vertical">
                     <!--给按钮设置背景图片，Source为图片路径，Resources/Images为在项目内的根文件夹，后面是图片名称-->

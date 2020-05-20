@@ -63,6 +63,30 @@
       <DependentUpon>FolderSelector.xaml</DependentUpon>
     </Compile>
     <Compile Include="Data\ItemsManager.cs" />
+    <Compile Include="Pages\electric.xaml.cs">
+      <DependentUpon>electric.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\fakewifi.xaml.cs">
+      <DependentUpon>fakewifi.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\fish.xaml.cs">
+      <DependentUpon>fish.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Knowledge_WhatS.xaml.cs">
+      <DependentUpon>Knowledge_WhatS.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Depretion.xaml.cs">
+      <DependentUpon>Depretion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\picture.xaml.cs">
+      <DependentUpon>picture.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Protectmethods.xaml.cs">
+      <DependentUpon>Protectmethods.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\SecurityShare.xaml.cs">
+      <DependentUpon>SecurityShare.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Utils\SystemIconManager.cs" />
     <Page Include="FolderSelector.xaml">
       <SubType>Designer</SubType>
@@ -80,13 +104,45 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Pages\electric.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\fakewifi.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\fish.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\Home.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Knowledge_WhatS.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\Others.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Depretion.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\picture.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Protectmethods.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\SecurityShare.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\USBScan.xaml">
       <Generator>MSBuild:Compile</Generator>
